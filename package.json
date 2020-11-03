@@ -1,6 +1,6 @@
 {
   "name": "arrange-package-json",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Arrange the properties in the package.json file to a universally consistent order",
   "homepage": "https://github.com/bevry/arrange-package-json",
   "license": "MIT",
@@ -58,7 +58,7 @@
     }
   },
   "funding": "https://bevry.me/fund",
-  "author": "2020+ Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
+  "author": "2020+ Benjamin Lupton <b@lupton.cc> (https://balupton.com)",
   "maintainers": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
@@ -70,7 +70,7 @@
     "url": "https://github.com/bevry/arrange-package-json.git"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=10"
   },
   "editions": [
     {
@@ -99,7 +99,7 @@
       }
     },
     {
-      "description": "TypeScript compiled against ESNext for Node.js 4 || 6 || 8 || 10 || 12 || 14 || 15 with Require for modules",
+      "description": "TypeScript compiled against ESNext for Node.js 10 || 12 || 14 || 15 with Require for modules",
       "directory": "edition-esnext",
       "entry": "index.js",
       "tags": [
@@ -109,7 +109,7 @@
         "require"
       ],
       "engines": {
-        "node": "4 || 6 || 8 || 10 || 12 || 14 || 15",
+        "node": "10 || 12 || 14 || 15",
         "browsers": false
       }
     },
@@ -170,7 +170,7 @@
     "eslint-config-bevry": "^3.23.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "kava": "3.2.0",
+    "kava": "^5.13.0",
     "make-deno-edition": "^1.2.0",
     "prettier": "^2.1.2",
     "projectz": "^2.17.0",
@@ -219,5 +219,7 @@
     "semi": false,
     "singleQuote": true
   },
-  "contributors": []
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ]
 }
