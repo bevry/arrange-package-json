@@ -6,6 +6,8 @@
   "license": "MIT",
   "keywords": [
     "arrange",
+    "arranged",
+    "arrangement",
     "browser",
     "data",
     "deno",
@@ -16,8 +18,14 @@
     "export-default",
     "module",
     "node",
+    "order",
+    "ordered",
+    "ordering",
     "package",
     "package.json",
+    "sort",
+    "sorted",
+    "sorting",
     "typed",
     "types",
     "typescript"
