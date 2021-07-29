@@ -35,7 +35,7 @@ Arrange the properties in the package.json file to a universally consistent orde
 
 ## Usage
 
-[Complete API Documentation.](http://master.arrange-package-json.bevry.surge.sh/docs/globals.html)
+[Complete API Documentation.](http://master.arrange-package-json.bevry.surge.sh/docs/)
 
 ```typescript
 import arrangePackageData from 'arrange-package-json'
@@ -67,7 +67,7 @@ Known fields are arranged to their universally consistent order. Unknown fields 
 
 ``` html
 <script type="module">
-    import pkg from '//cdn.skypack.dev/arrange-package-json@^2.2.0'
+    import pkg from '//cdn.skypack.dev/arrange-package-json@^2.3.0'
 </script>
 ```
 
@@ -75,7 +75,7 @@ Known fields are arranged to their universally consistent order. Unknown fields 
 
 ``` html
 <script type="module">
-    import pkg from '//unpkg.com/arrange-package-json@^2.2.0'
+    import pkg from '//unpkg.com/arrange-package-json@^2.3.0'
 </script>
 ```
 
@@ -83,7 +83,7 @@ Known fields are arranged to their universally consistent order. Unknown fields 
 
 ``` html
 <script type="module">
-    import pkg from '//dev.jspm.io/arrange-package-json@2.2.0'
+    import pkg from '//dev.jspm.io/arrange-package-json@2.3.0'
 </script>
 ```
 
