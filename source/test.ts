@@ -16,7 +16,7 @@ kava.suite('arrange-package-json', function (suite, test) {
 		equal(
 			Object.keys(actual).join(', '),
 			'name, version, banana, apple',
-			'keys are in arranged order'
+			'keys are in arranged order',
 		)
 	})
 })
