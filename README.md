@@ -66,7 +66,7 @@ Known fields are arranged to their universally consistent order. Unknown fields 
 
 ``` html
 <script type="module">
-    import pkg from '//cdn.skypack.dev/arrange-package-json@^2.4.0'
+    import pkg from '//cdn.skypack.dev/arrange-package-json@^2.5.0'
 </script>
 ```
 
@@ -74,7 +74,7 @@ Known fields are arranged to their universally consistent order. Unknown fields 
 
 ``` html
 <script type="module">
-    import pkg from '//unpkg.com/arrange-package-json@^2.4.0'
+    import pkg from '//unpkg.com/arrange-package-json@^2.5.0'
 </script>
 ```
 
@@ -82,7 +82,7 @@ Known fields are arranged to their universally consistent order. Unknown fields 
 
 ``` html
 <script type="module">
-    import pkg from '//dev.jspm.io/arrange-package-json@2.4.0'
+    import pkg from '//dev.jspm.io/arrange-package-json@2.5.0'
 </script>
 ```
 
@@ -92,9 +92,9 @@ Known fields are arranged to their universally consistent order. Unknown fields 
 
 <ul><li><code>arrange-package-json/source/index.ts</code> is <a href="https://www.typescriptlang.org/" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. ">TypeScript</a> source code with <a href="https://babeljs.io/docs/learn-es2015/#modules" title="ECMAScript Modules">Import</a> for modules</li>
 <li><code>arrange-package-json/edition-browsers/index.js</code> is <a href="https://www.typescriptlang.org/" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. ">TypeScript</a> compiled against ES2022 for web browsers with <a href="https://babeljs.io/docs/learn-es2015/#modules" title="ECMAScript Modules">Import</a> for modules</li>
-<li><code>arrange-package-json</code> aliases <code>arrange-package-json/edition-es2017/index.js</code></li>
-<li><code>arrange-package-json/edition-es2017/index.js</code> is <a href="https://www.typescriptlang.org/" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. ">TypeScript</a> compiled against <a href="https://en.wikipedia.org/wiki/ECMAScript#8th_Edition_-_ECMAScript_2017" title="ECMAScript ES2017">ES2017</a> for <a href="https://nodejs.org" title="Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine">Node.js</a> with <a href="https://nodejs.org/dist/latest-v5.x/docs/api/modules.html" title="Node/CJS Modules">Require</a> for modules</li>
-<li><code>arrange-package-json/edition-es2017-esm/index.js</code> is <a href="https://www.typescriptlang.org/" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. ">TypeScript</a> compiled against <a href="https://en.wikipedia.org/wiki/ECMAScript#8th_Edition_-_ECMAScript_2017" title="ECMAScript ES2017">ES2017</a> for <a href="https://nodejs.org" title="Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine">Node.js</a> with <a href="https://babeljs.io/docs/learn-es2015/#modules" title="ECMAScript Modules">Import</a> for modules</li></ul>
+<li><code>arrange-package-json</code> aliases <code>arrange-package-json/edition-es2022/index.js</code></li>
+<li><code>arrange-package-json/edition-es2022/index.js</code> is <a href="https://www.typescriptlang.org/" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. ">TypeScript</a> compiled against ES2022 for <a href="https://nodejs.org" title="Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine">Node.js</a> 10 || 12 || 14 || 16 || 18 || 20 || 21 with <a href="https://nodejs.org/dist/latest-v5.x/docs/api/modules.html" title="Node/CJS Modules">Require</a> for modules</li>
+<li><code>arrange-package-json/edition-es2022-esm/index.js</code> is <a href="https://www.typescriptlang.org/" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. ">TypeScript</a> compiled against ES2022 for <a href="https://nodejs.org" title="Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine">Node.js</a> 12 || 14 || 16 || 18 || 20 || 21 with <a href="https://babeljs.io/docs/learn-es2015/#modules" title="ECMAScript Modules">Import</a> for modules</li></ul>
 
 <!-- /INSTALL -->
 
