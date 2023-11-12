@@ -66,7 +66,7 @@ Known fields are arranged to their universally consistent order. Unknown fields 
 
 ``` html
 <script type="module">
-    import pkg from '//cdn.skypack.dev/arrange-package-json@^2.5.0'
+    import pkg from '//cdn.skypack.dev/arrange-package-json@^2.6.0'
 </script>
 ```
 
@@ -74,7 +74,7 @@ Known fields are arranged to their universally consistent order. Unknown fields 
 
 ``` html
 <script type="module">
-    import pkg from '//unpkg.com/arrange-package-json@^2.5.0'
+    import pkg from '//unpkg.com/arrange-package-json@^2.6.0'
 </script>
 ```
 
@@ -82,7 +82,7 @@ Known fields are arranged to their universally consistent order. Unknown fields 
 
 ``` html
 <script type="module">
-    import pkg from '//dev.jspm.io/arrange-package-json@2.5.0'
+    import pkg from '//dev.jspm.io/arrange-package-json@2.6.0'
 </script>
 ```
 
