@@ -57,7 +57,7 @@ export const universalOrder: Array<string> = [
  */
 export default function arrangePackageData(
 	packageData: object,
-	order = universalOrder,
+	order = universalOrder
 ) {
 	return arrangekeys(packageData, order)
 }
