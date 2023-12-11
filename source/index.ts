@@ -12,10 +12,13 @@ export const universalOrder: Array<string> = [
 	'license',
 	'keywords',
 	'badges',
-	// people
+	// people: funding
 	'funding',
-	'author',
 	'sponsors',
+	'funders',
+	'backers',
+	// people: authorship
+	'author',
 	'maintainers',
 	'contributors',
 	// support and compat
