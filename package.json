@@ -1,6 +1,6 @@
 {
   "name": "arrange-package-json",
-  "version": "4.6.0",
+  "version": "5.0.0",
   "description": "Arrange the properties in the package.json file to a universally consistent order",
   "homepage": "https://github.com/bevry/arrange-package-json",
   "license": "Artistic-2.0",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "description": "TypeScript compiled against ES2022 for Node.js 21 with Require for modules",
+      "description": "TypeScript compiled against ES2022 for Node.js 6 || 8 || 10 || 12 || 14 || 16 || 18 || 20 || 21 with Require for modules",
       "directory": "edition-es2022",
       "entry": "index.js",
       "tags": [
@@ -130,7 +130,7 @@
       }
     },
     {
-      "description": "TypeScript compiled against ES5 for Node.js 4 with Require for modules",
+      "description": "TypeScript compiled against ES5 for Node.js 4 || 6 || 8 || 10 || 12 || 14 || 16 || 18 || 20 || 21 with Require for modules",
       "directory": "edition-es5",
       "entry": "index.js",
       "tags": [
@@ -145,7 +145,7 @@
       }
     },
     {
-      "description": "TypeScript compiled against ES2022 for Node.js 21 with Import for modules",
+      "description": "TypeScript compiled against ES2022 for Node.js 12 || 14 || 16 || 18 || 20 || 21 with Import for modules",
       "directory": "edition-es2022-esm",
       "entry": "index.js",
       "tags": [
@@ -209,21 +209,21 @@
   },
   "devDependencies": {
     "@bevry/update-contributors": "^1.23.0",
-    "@types/node": "^20.10.3",
-    "@typescript-eslint/eslint-plugin": "^6.13.2",
-    "@typescript-eslint/parser": "^6.13.2",
+    "@types/node": "^20.10.5",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
     "assert-helpers": "^11.9.0",
-    "eslint": "^8.55.0",
-    "eslint-config-bevry": "^5.2.0",
+    "eslint": "^8.56.0",
+    "eslint-config-bevry": "^5.3.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-prettier": "^5.1.0",
     "kava": "^7.5.0",
-    "make-deno-edition": "^2.0.1",
-    "prettier": "^3.1.0",
+    "make-deno-edition": "^2.1.0",
+    "prettier": "^3.1.1",
     "projectz": "^3.4.0",
     "typedoc": "^0.25.4",
-    "typescript": "5.3.2",
-    "valid-directory": "^4.6.0",
+    "typescript": "5.3.3",
+    "valid-directory": "^4.7.0",
     "valid-module": "^2.6.0"
   },
   "scripts": {
@@ -236,8 +236,7 @@
     "our:compile:edition-es5": "tsc --module commonjs --target ES5 --outDir ./edition-es5 --project tsconfig.json && ( test ! -d edition-es5/source || ( mv edition-es5/source edition-temp && rm -rf edition-es5 && mv edition-temp edition-es5 ) ) && printf '%s' '{\"type\": \"commonjs\"}' > edition-es5/package.json",
     "our:compile:edition-types": "tsc --emitDeclarationOnly --declaration --declarationMap --declarationDir ./edition-types --project tsconfig.json && ( test ! -d edition-types/source || ( mv edition-types/source edition-temp && rm -rf edition-types && mv edition-temp edition-types ) )",
     "our:deploy": "printf '%s\n' 'no need for this project'",
-    "our:meta": "npm run our:meta:contributors && npm run our:meta:docs && npm run our:meta:projectz",
-    "our:meta:contributors": "update-contributors",
+    "our:meta": "npm run our:meta:docs && npm run our:meta:projectz",
     "our:meta:docs": "npm run our:meta:docs:typedoc",
     "our:meta:docs:typedoc": "rm -rf ./docs && typedoc --exclude '**/+(*test*|node_modules)' --excludeExternals --out ./docs ./source",
     "our:meta:projectz": "projectz compile",
@@ -250,8 +249,7 @@
     "our:setup": "npm run our:setup:install",
     "our:setup:install": "npm install",
     "our:test": "npm run our:verify && npm test",
-    "our:verify": "npm run our:verify:directory && npm run our:verify:eslint && npm run our:verify:module && npm run our:verify:prettier",
-    "our:verify:directory": "valid-directory",
+    "our:verify": "npm run our:verify:eslint && npm run our:verify:module && npm run our:verify:prettier",
     "our:verify:eslint": "eslint --fix --ignore-pattern '**/*.d.ts' --ignore-pattern '**/vendor/' --ignore-pattern '**/node_modules/' --ext .mjs,.js,.jsx,.ts,.tsx ./source",
     "our:verify:module": "valid-module",
     "our:verify:prettier": "prettier --write .",

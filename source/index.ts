@@ -7,26 +7,25 @@ export const universalOrder: Array<string> = [
 	'name',
 	'version',
 	'private',
+	'license',
 	'description',
 	'homepage',
-	'license',
+	'funding',
+	'repository',
+	'bugs',
 	'keywords',
 	'badges',
-	// people: funding
-	'funding',
-	'sponsors',
-	'funders',
-	'backers',
 	// people: authorship
 	'author',
 	'maintainers',
 	'contributors',
-	// support and compat
-	'bugs',
-	'repository',
+	// people: funding
+	'funders',
+	'sponsors',
+	'donors',
+	// compatibility
 	'engines',
 	'editions',
-	// entries
 	'bin',
 	'types',
 	'type',
@@ -48,10 +47,11 @@ export const universalOrder: Array<string> = [
 	// scripts
 	'scripts',
 	// configs
-	'vercel',
+	'babel',
+	'boundation',
 	'eslintConfig',
 	'prettier',
-	'babel',
+	'vercel',
 ]
 
 /**
