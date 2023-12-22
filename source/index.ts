@@ -16,13 +16,14 @@ export const universalOrder: Array<string> = [
 	'keywords',
 	'badges',
 	// people: authorship
-	'author',
-	'maintainers',
-	'contributors',
+	'author', // CSV or active author
+	'authors', // all authors as array array
+	'maintainers', // all maintainers as array
+	'contributors', // all contributors as array
 	// people: funding
-	'funders',
-	'sponsors',
-	'donors',
+	'funders', // all funders as array
+	'sponsors', // all sponsors as array
+	'donors', // all donors as array
 	// compatibility
 	'engines',
 	'editions',

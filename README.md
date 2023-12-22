@@ -52,6 +52,12 @@ console.log(
 
 Known fields are arranged to their universally consistent order. Unknown fields are placed at the end with their order maintained.
 
+If you are interested in this package, you will be interested in:
+
+-   [Projectz](https://github.com/bevry/projectz)
+-   [sortobject](https://github.com/bevry/sortobject)
+-   [arrangekeys](https://github.com/bevry/arrangekeys)
+
 <!-- INSTALL/ -->
 
 <h2>Install</h2>
@@ -66,14 +72,14 @@ Known fields are arranged to their universally consistent order. Unknown fields 
 <a href="https://deno.land" title="Deno is a secure runtime for JavaScript and TypeScript, it is an alternative for Node.js"><h3>Deno</h3></a>
 
 ``` typescript
-import pkg from 'https://unpkg.com/arrange-package-json@^5.0.0/edition-deno/index.ts'
+import pkg from 'https://unpkg.com/arrange-package-json@^5.0.1/edition-deno/index.ts'
 ```
 
 <a href="https://www.skypack.dev" title="Skypack is a JavaScript Delivery Network for modern web apps"><h3>Skypack</h3></a>
 
 ``` html
 <script type="module">
-    import pkg from '//cdn.skypack.dev/arrange-package-json@^5.0.0'
+    import pkg from '//cdn.skypack.dev/arrange-package-json@^5.0.1'
 </script>
 ```
 
@@ -81,7 +87,7 @@ import pkg from 'https://unpkg.com/arrange-package-json@^5.0.0/edition-deno/inde
 
 ``` html
 <script type="module">
-    import pkg from '//unpkg.com/arrange-package-json@^5.0.0'
+    import pkg from '//unpkg.com/arrange-package-json@^5.0.1'
 </script>
 ```
 
@@ -89,7 +95,7 @@ import pkg from 'https://unpkg.com/arrange-package-json@^5.0.0/edition-deno/inde
 
 ``` html
 <script type="module">
-    import pkg from '//dev.jspm.io/arrange-package-json@5.0.0'
+    import pkg from '//dev.jspm.io/arrange-package-json@5.0.1'
 </script>
 ```
 

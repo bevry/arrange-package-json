@@ -1,6 +1,6 @@
 {
   "name": "arrange-package-json",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Arrange the properties in the package.json file to a universally consistent order",
   "homepage": "https://github.com/bevry/arrange-package-json",
   "license": "Artistic-2.0",
