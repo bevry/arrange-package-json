@@ -10,6 +10,7 @@ export const universalOrder: Array<string> = [
 	'license',
 	'description',
 	'homepage',
+	'demo', // component.json
 	'funding',
 	'repository',
 	'bugs',
@@ -30,6 +31,7 @@ export const universalOrder: Array<string> = [
 	'bin',
 	'types',
 	'type',
+	'moduleType', // bower.json
 	'main',
 	'node',
 	'cjs',
@@ -40,10 +42,12 @@ export const universalOrder: Array<string> = [
 	'browser',
 	'module',
 	'jspm',
+	'ignore', // bower.json
 	// deps
 	'dependencies',
 	'optionalDependencies',
 	'devDependencies',
+	'dev-dependencies', // bower.json
 	'peerDependencies',
 	// scripts
 	'scripts',

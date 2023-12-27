@@ -72,14 +72,14 @@ If you are interested in this package, you will be interested in:
 <a href="https://deno.land" title="Deno is a secure runtime for JavaScript and TypeScript, it is an alternative for Node.js"><h3>Deno</h3></a>
 
 ``` typescript
-import pkg from 'https://unpkg.com/arrange-package-json@^5.0.1/edition-deno/index.ts'
+import pkg from 'https://unpkg.com/arrange-package-json@^5.0.2/edition-deno/index.ts'
 ```
 
 <a href="https://www.skypack.dev" title="Skypack is a JavaScript Delivery Network for modern web apps"><h3>Skypack</h3></a>
 
 ``` html
 <script type="module">
-    import pkg from '//cdn.skypack.dev/arrange-package-json@^5.0.1'
+    import pkg from '//cdn.skypack.dev/arrange-package-json@^5.0.2'
 </script>
 ```
 
@@ -87,7 +87,7 @@ import pkg from 'https://unpkg.com/arrange-package-json@^5.0.1/edition-deno/inde
 
 ``` html
 <script type="module">
-    import pkg from '//unpkg.com/arrange-package-json@^5.0.1'
+    import pkg from '//unpkg.com/arrange-package-json@^5.0.2'
 </script>
 ```
 
@@ -95,7 +95,7 @@ import pkg from 'https://unpkg.com/arrange-package-json@^5.0.1/edition-deno/inde
 
 ``` html
 <script type="module">
-    import pkg from '//dev.jspm.io/arrange-package-json@5.0.1'
+    import pkg from '//dev.jspm.io/arrange-package-json@5.0.2'
 </script>
 ```
 
@@ -173,7 +173,7 @@ These amazing people have contributed code to this project:
 
 Unless stated otherwise all works are:
 
-<ul><li>Copyright &copy; 2020+ <a href="https://balupton.com">Benjamin Lupton</a></li></ul>
+<ul><li>Copyright &copy; <a href="https://balupton.com">Benjamin Lupton</a></li></ul>
 
 and licensed under:
 
